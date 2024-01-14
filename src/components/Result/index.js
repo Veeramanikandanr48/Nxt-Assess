@@ -11,7 +11,7 @@ const Result = props => {
   return (
     <>
       <Header />
-      <div className="bg-container">
+      <div className="bt-container">
         <div className="result-container">
           <img
             src="https://res.cloudinary.com/dzaz9bsnw/image/upload/v1704821915/Layer_2_prwvp6.jpg"
