@@ -1,3 +1,5 @@
+import './index.css'
+
 const SingleSelectQuestion = props => {
   const {
     question,
@@ -6,20 +8,22 @@ const SingleSelectQuestion = props => {
     moveToNextQuestion,
   } = props
   return (
-    <div>
-      <h2>{question.questionText}</h2>
-      <select
-        value={selectedOption}
-        onChange={e => handleOptionSelect(e.target.value)}
-      >
-        <option value="">Select an option</option>
-        {question.options.map(option => (
-          <option key={option.optionId} value={option.optionId}>
-            {option.text}
-          </option>
-        ))}
-      </select>
-      <button type="button" onClick={moveToNextQuestion}>
+    <div className="bg-card">
+      <div className="center-card">
+        <h2>{question.questionText}</h2>
+        <select
+          value={selectedOption}
+          onChange={e => handleOptionSelect(e.target.value)}
+        >
+          <option value="">Select an option</option>
+          {question.options.map(option => (
+            <option key={option.optionId} value={option.optionId}>
+              {option.text}
+            </option>
+          ))}
+        </select>
+      </div>
+      <button className="nxt-button" type="button" onClick={moveToNextQuestion}>
         Next Question
       </button>
     </div>

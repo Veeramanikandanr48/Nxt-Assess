@@ -137,7 +137,7 @@ class Assessment extends Component {
     return (
       <>
         <div className="assessment-container">
-          <div className="question-container">
+          <div className="question1-container">
             {currentQuestion && (
               <div>
                 {currentQuestion.optionsType === 'DEFAULT' && (
