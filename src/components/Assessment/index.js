@@ -59,6 +59,7 @@ class Assessment extends Component {
     } else {
       this.setState({apiStatus: apiStatusConstants.failure})
     }
+    // Veeramanikandan
   }
 
   startTimer = () => {
@@ -152,7 +153,7 @@ class Assessment extends Component {
                         : currentQuestionIndex
                     }
                   />
-                )}
+                )}// Veeramanikandan
                 {currentQuestion.optionsType === 'IMAGE' && (
                   <ImageQuestion
                     question={currentQuestion}
@@ -226,6 +227,7 @@ class Assessment extends Component {
     <div className="loader-container" data-testid="loader">
       <Loader type="ThreeDots" color="#263868" height={50} width={50} />
     </div>
+    // Veeramanikandan
   )
 
   renderAssessmentDetails = () => {
