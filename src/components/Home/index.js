@@ -14,6 +14,7 @@ const Home = () => (
           alt="clothes that get you noticed"
           className="home-mobile-img"
         />
+            // Veeramanikandan
         <ol type="1" className="home-description">
           <li className="each-list">Total Questions: 10</li>
           <li className="each-list">Types of Questions: MCQs</li>
@@ -31,6 +32,7 @@ const Home = () => (
           </button>
         </Link>
       </div>
+            // Veeramanikandan
       <img
         src="https://res.cloudinary.com/dpcfyn3si/image/upload/v1704864519/nxtassess/qnfln52q8vijkcaogwae.png"
         alt="clothes that get you noticed"
