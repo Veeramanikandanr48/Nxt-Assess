@@ -57,6 +57,7 @@ class LoginForm extends Component {
       this.onSubmitFailure(data.error_msg)
     }
   }
+  // Veeramanikandan
 
   renderPasswordField = () => {
     const {password, isChecked} = this.state
@@ -88,6 +89,7 @@ class LoginForm extends Component {
       </>
     )
   }
+// Veeramanikandan
 
   renderUsernameField = () => {
     const {username} = this.state
@@ -116,6 +118,7 @@ class LoginForm extends Component {
     if (jwtToken !== undefined) {
       return <Redirect to="/" />
     }
+    // Veeramanikandan
 
     return (
       <div className="login-form-container">
