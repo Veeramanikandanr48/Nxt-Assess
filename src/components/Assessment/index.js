@@ -153,7 +153,8 @@ class Assessment extends Component {
                         : currentQuestionIndex
                     }
                   />
-                )}// Veeramanikandan
+                )}
+// Veeramanikandan
                 {currentQuestion.optionsType === 'IMAGE' && (
                   <ImageQuestion
                     question={currentQuestion}
